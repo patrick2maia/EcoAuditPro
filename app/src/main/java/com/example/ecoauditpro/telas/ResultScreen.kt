@@ -3,14 +3,13 @@ package com.example.ecoauditpro.telas
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.ecoauditpro.data.AuditReport
 import com.example.ecoauditpro.util.AuditDatabase
+import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -21,67 +20,52 @@ fun ResultScreen(
     setor: String,
     onBackToHome: () -> Unit
 ) {
+    // 1. Definições de ambiente (DENTRO da função, não nos parâmetros)
+    val scope = rememberCoroutineScope()
+    val context = LocalContext.current
     var isSynced by remember { mutableStateOf(false) }
 
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
-        Text(
-            text = "Resultado da Auditoria",
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color(0xFF2E7D32)
-        )
-
-        Spacer(modifier = Modifier.height(32.dp))
-
-        // Card de Pontuação
-        Card(
-            modifier = Modifier.fillMaxWidth(),
-            colors = CardDefaults.cardColors(containerColor = Color(0xFFF1F8E9))
-        ) {
-            Column(
-                modifier = Modifier.padding(24.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                Text(text = "Pontuação ESG", fontSize = 18.sp)
-                Text(
-                    text = "${score.toInt()}%",
-                    fontSize = 64.sp,
-                    fontWeight = FontWeight.Black,
-                    color = if (score >= 70) Color(0xFF2E7D32) else Color.Red
-                )
-            }
-        }
+        Text(text = "Resultado da Auditoria", style = MaterialTheme.typography.headlineMedium)
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(text = "Pontuação: $score%", style = MaterialTheme.typography.bodyLarge)
 
         Spacer(modifier = Modifier.height(48.dp))
 
-        // Botão de Sincronização
+        // Botão de Sincronização / Salvar
         Button(
             onClick = {
-                val currentData = SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault()).format(Date())
                 val newReport = AuditReport(
+                    codigoRelatorio = "RV 001235",
                     empresa = empresa,
                     setor = setor,
-                    data = currentData,
+                    data = SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault()).format(Date()),
                     score = score,
-                    detalhes = "Auditoria realizada com sucesso."
+                    detalhes = "Auditoria realizada com sucesso"
                 )
 
-                AuditDatabase.saveReport(newReport)
-                isSynced = true
+                scope.launch {
+                    try {
+                        val db = AuditDatabase.getDatabase(context)
+                        db.auditDao().saveReport(newReport)
+                        isSynced = true
+                    } catch (e: Exception) {
+                        android.util.Log.e("JACK_LOG", "Erro ao salvar: ${e.message}")
+                    }
+                }
             },
             modifier = Modifier.fillMaxWidth(),
-            enabled = !isSynced, // Desabilita após salvar
+            enabled = !isSynced,
             colors = ButtonDefaults.buttonColors(
-                containerColor = if (isSynced) Color.Gray else Color(0xFF2E7D32)
+                containerColor = if (isSynced) Color.Gray else MaterialTheme.colorScheme.primary
             )
         ) {
-            Text(if (isSynced) "Relatório Sincronizado" else "Sincronizar Relatório")
+            Text(if (isSynced) "Sincronizado com Sucesso" else "Salvar no Banco (RV 001235)")
         }
 
         Spacer(modifier = Modifier.height(16.dp))

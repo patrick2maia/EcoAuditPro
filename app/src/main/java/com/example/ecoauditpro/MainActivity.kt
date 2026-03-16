@@ -19,8 +19,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             EcoAuditProTheme {
                 val navController = rememberNavController()
-
-                // Jack: rememberSaveable garante que os dados não sumam ao navegar
                 var empresaNome by rememberSaveable { mutableStateOf("") }
                 var setorNome by rememberSaveable { mutableStateOf("") }
 
@@ -48,7 +46,6 @@ class MainActivity : ComponentActivity() {
                     composable("checklist") {
                         ChecklistScreen(
                             onFinishAudit = { scoreCalculado ->
-                                // Jack: Passando a nota real para a próxima tela
                                 navController.navigate("resultado/${scoreCalculado.toString()}")
                             }
                         )

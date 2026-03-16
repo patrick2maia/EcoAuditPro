@@ -32,6 +32,17 @@ fun DashboardScreen(onStartClick: () -> Unit, onNewAuditClick: () -> Unit) {
             color = Color.Gray
         )
 
+        Text(
+            text = "RM 562748 - Patrick Maia",
+            fontSize = 12.sp,
+            color = Color(0xFF2E7D32)
+        )
+        Text(
+            text = "FIAP - 2026",
+            fontSize = 12.sp,
+            color = Color(0xFF2E7D32)
+        )
+
         Spacer(modifier = Modifier.height(48.dp))
 
         Button(
