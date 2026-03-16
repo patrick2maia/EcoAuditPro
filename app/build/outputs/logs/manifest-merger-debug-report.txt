@@ -1,0 +1,360 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2115ed65ad5d788429c85208bdd6cc79\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fce0accb8f3ec50bf2482df83a738747\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\dea9f530ed54552cfb6b3f08e4c0f3ff\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4ac436246928c450300eab7e0be58656\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\719c71befef4cc8d31f06818d033d752\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c5b99bf556579f820cf1f14d17e134cf\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1d9957e4c266f4377f43ed0dec701aa1\transformed\navigationevent-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5e10075abed98bb0a89139166263e95a\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e11997683eac6fea3718b60362003c76\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\05e9e07316f48137cabe3df5c2c9be50\transformed\ui-tooling-data\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2a0bc7baf2a58287ed30331be4e4ed8b\transformed\ui-tooling-preview\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\926bea95fbbb91d5b1036327a1ac89a9\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ddd2ae8c7b1313812f76ebb36c7e88be\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\70be38d824104aa5f9acd3029378bddb\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a809330623fcc0901d96785a0b3a23c0\transformed\foundation-layout\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\714278bb10f647ed2fbe72e2e38dc0b0\transformed\animation-core\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5b5a25da6ad434151ac8ce278f3058ce\transformed\animation\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0f243179ad403e6949d35a3134538b16\transformed\ui-util\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6dac4c72188c079f7302bbfa214dad27\transformed\ui-unit\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8e1f82023b61df64c9f4c730388a13e8\transformed\ui-text\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\eeda64604d7ca40d5e8bf41684a81bf7\transformed\ui-geometry\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ce8576b5b2da27972d70a627daa58d51\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\567c73388b725a63200c81c422edb01d\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\365ad626dc01bffbfbecf064d82d58b1\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\15d1a74530ee3165e59b7773fde2fcde\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c2354d313bcafbcb21156f1756266600\transformed\lifecycle-viewmodel\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8d35baadc9311d30dc478b5fc5c492a6\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8399997df68606a2b6330c936fd4a581\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e48b2f2517deaa5470266b7ffb433973\transformed\savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\871418cdea0a4e9f4165028976613ed3\transformed\savedstate-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d250d54af42cf766538fc32e01746cd\transformed\runtime\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ea258b4b5a789bea0d57a8a676896d49\transformed\runtime-saveable\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\abeec19cf62f0f9878c020ff800e9ec8\transformed\lifecycle-runtime-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6f00c3cc33087346ffdbc54dfb705d07\transformed\lifecycle-runtime\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fe64acd680cad039b2f4573caca8f5ca\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e04ce576ee6f98d29874f08e1f6f2a98\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\181d09526df1483b07515dbb59171dcf\transformed\lifecycle-viewmodel-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a1b15f31ef03370a7b1bf2b3a09cbe79\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\524af4710f342738a31faf60e9355943\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ed46d37caa8ed70dbe60be988ec36d70\transformed\activity-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e1b173eb6fa18eb8063ab33f8e49ded7\transformed\activity-1.13.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2b9aa74f06d133912a821e771a921799\transformed\activity-compose-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\f546b647a6564fed90ee01073246fb13\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\558ea009ec03c3743e952243abec78b2\transformed\core-ktx-1.18.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4bf517b6fd1bbd37a33a784e66eac416\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0cff4a1d15ff21f99837d3a083b2eeaa\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e6d43b59f690e386ab9db516668c4a95\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\47d9e72278a1e2269122caeb1a91633d\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4c9cc38274650659f8f453ffa83cafc7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4126bcf1c0213a2bce823996d4580e1a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4c9cc38274650659f8f453ffa83cafc7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4c9cc38274650659f8f453ffa83cafc7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:13:9-49
+	android:dataExtractionRules
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.ecoauditpro.MainActivity
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:19:13-45
+	android:exported
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:20:13-53
+	android:name
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2115ed65ad5d788429c85208bdd6cc79\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2115ed65ad5d788429c85208bdd6cc79\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fce0accb8f3ec50bf2482df83a738747\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fce0accb8f3ec50bf2482df83a738747\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\dea9f530ed54552cfb6b3f08e4c0f3ff\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\dea9f530ed54552cfb6b3f08e4c0f3ff\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4ac436246928c450300eab7e0be58656\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4ac436246928c450300eab7e0be58656\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\719c71befef4cc8d31f06818d033d752\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\719c71befef4cc8d31f06818d033d752\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c5b99bf556579f820cf1f14d17e134cf\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c5b99bf556579f820cf1f14d17e134cf\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1d9957e4c266f4377f43ed0dec701aa1\transformed\navigationevent-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1d9957e4c266f4377f43ed0dec701aa1\transformed\navigationevent-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5e10075abed98bb0a89139166263e95a\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5e10075abed98bb0a89139166263e95a\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e11997683eac6fea3718b60362003c76\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e11997683eac6fea3718b60362003c76\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\05e9e07316f48137cabe3df5c2c9be50\transformed\ui-tooling-data\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\05e9e07316f48137cabe3df5c2c9be50\transformed\ui-tooling-data\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2a0bc7baf2a58287ed30331be4e4ed8b\transformed\ui-tooling-preview\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2a0bc7baf2a58287ed30331be4e4ed8b\transformed\ui-tooling-preview\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\926bea95fbbb91d5b1036327a1ac89a9\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\926bea95fbbb91d5b1036327a1ac89a9\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ddd2ae8c7b1313812f76ebb36c7e88be\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ddd2ae8c7b1313812f76ebb36c7e88be\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\70be38d824104aa5f9acd3029378bddb\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\70be38d824104aa5f9acd3029378bddb\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a809330623fcc0901d96785a0b3a23c0\transformed\foundation-layout\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a809330623fcc0901d96785a0b3a23c0\transformed\foundation-layout\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\714278bb10f647ed2fbe72e2e38dc0b0\transformed\animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\714278bb10f647ed2fbe72e2e38dc0b0\transformed\animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5b5a25da6ad434151ac8ce278f3058ce\transformed\animation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\5b5a25da6ad434151ac8ce278f3058ce\transformed\animation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0f243179ad403e6949d35a3134538b16\transformed\ui-util\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0f243179ad403e6949d35a3134538b16\transformed\ui-util\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6dac4c72188c079f7302bbfa214dad27\transformed\ui-unit\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6dac4c72188c079f7302bbfa214dad27\transformed\ui-unit\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8e1f82023b61df64c9f4c730388a13e8\transformed\ui-text\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8e1f82023b61df64c9f4c730388a13e8\transformed\ui-text\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\eeda64604d7ca40d5e8bf41684a81bf7\transformed\ui-geometry\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\eeda64604d7ca40d5e8bf41684a81bf7\transformed\ui-geometry\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ce8576b5b2da27972d70a627daa58d51\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ce8576b5b2da27972d70a627daa58d51\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\567c73388b725a63200c81c422edb01d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\567c73388b725a63200c81c422edb01d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\365ad626dc01bffbfbecf064d82d58b1\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\365ad626dc01bffbfbecf064d82d58b1\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\15d1a74530ee3165e59b7773fde2fcde\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\15d1a74530ee3165e59b7773fde2fcde\transformed\lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c2354d313bcafbcb21156f1756266600\transformed\lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c2354d313bcafbcb21156f1756266600\transformed\lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8d35baadc9311d30dc478b5fc5c492a6\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8d35baadc9311d30dc478b5fc5c492a6\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8399997df68606a2b6330c936fd4a581\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8399997df68606a2b6330c936fd4a581\transformed\savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e48b2f2517deaa5470266b7ffb433973\transformed\savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e48b2f2517deaa5470266b7ffb433973\transformed\savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\871418cdea0a4e9f4165028976613ed3\transformed\savedstate-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\871418cdea0a4e9f4165028976613ed3\transformed\savedstate-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d250d54af42cf766538fc32e01746cd\transformed\runtime\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d250d54af42cf766538fc32e01746cd\transformed\runtime\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ea258b4b5a789bea0d57a8a676896d49\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ea258b4b5a789bea0d57a8a676896d49\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\abeec19cf62f0f9878c020ff800e9ec8\transformed\lifecycle-runtime-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\abeec19cf62f0f9878c020ff800e9ec8\transformed\lifecycle-runtime-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6f00c3cc33087346ffdbc54dfb705d07\transformed\lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\6f00c3cc33087346ffdbc54dfb705d07\transformed\lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fe64acd680cad039b2f4573caca8f5ca\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\fe64acd680cad039b2f4573caca8f5ca\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e04ce576ee6f98d29874f08e1f6f2a98\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e04ce576ee6f98d29874f08e1f6f2a98\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\181d09526df1483b07515dbb59171dcf\transformed\lifecycle-viewmodel-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\181d09526df1483b07515dbb59171dcf\transformed\lifecycle-viewmodel-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a1b15f31ef03370a7b1bf2b3a09cbe79\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a1b15f31ef03370a7b1bf2b3a09cbe79\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\524af4710f342738a31faf60e9355943\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\524af4710f342738a31faf60e9355943\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ed46d37caa8ed70dbe60be988ec36d70\transformed\activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ed46d37caa8ed70dbe60be988ec36d70\transformed\activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e1b173eb6fa18eb8063ab33f8e49ded7\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e1b173eb6fa18eb8063ab33f8e49ded7\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2b9aa74f06d133912a821e771a921799\transformed\activity-compose-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\2b9aa74f06d133912a821e771a921799\transformed\activity-compose-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\f546b647a6564fed90ee01073246fb13\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\f546b647a6564fed90ee01073246fb13\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\558ea009ec03c3743e952243abec78b2\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\558ea009ec03c3743e952243abec78b2\transformed\core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4bf517b6fd1bbd37a33a784e66eac416\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4bf517b6fd1bbd37a33a784e66eac416\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0cff4a1d15ff21f99837d3a083b2eeaa\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0cff4a1d15ff21f99837d3a083b2eeaa\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e6d43b59f690e386ab9db516668c4a95\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e6d43b59f690e386ab9db516668c4a95\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\47d9e72278a1e2269122caeb1a91633d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\47d9e72278a1e2269122caeb1a91633d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4c9cc38274650659f8f453ffa83cafc7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4c9cc38274650659f8f453ffa83cafc7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4126bcf1c0213a2bce823996d4580e1a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4126bcf1c0213a2bce823996d4580e1a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\.github\Meus_Apps\EcoAuditPro\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\01c95eba6bd80f0798c9ea655cf92dc7\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\7d217e29b5c01180098fa536dd9888b5\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c34021311c8dd39ac0d45425ae2aaaa4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c3880d86defa87b22f751ff6e0c13d03\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+permission#com.example.ecoauditpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.ecoauditpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4cc93ed8ad6f1523cd461cc1cce989aa\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\06187f0788ef605d1d562158f778062a\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\8bf09c98563e29b74ecee6acba3bad94\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
