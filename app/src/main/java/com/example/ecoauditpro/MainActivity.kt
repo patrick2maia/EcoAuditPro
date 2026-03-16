@@ -19,22 +19,33 @@ class MainActivity : ComponentActivity() {
         setContent {
             EcoAuditProTheme {
                 val navController = rememberNavController()
+
+                // Persistência de estado durante a sessão da auditoria
                 var empresaNome by rememberSaveable { mutableStateOf("") }
                 var setorNome by rememberSaveable { mutableStateOf("") }
 
                 NavHost(navController = navController, startDestination = "dashboard") {
 
+                    // TELA INICIAL
                     composable("dashboard") {
                         DashboardScreen(
                             onStartClick = { navController.navigate("setup") },
-                            onNewAuditClick = { navController.navigate("setup") }
+                            onNewAuditClick = { navController.navigate("setup") },
+                            onViewHistoryClick = { navController.navigate("history") }
                         )
                     }
 
+                    // TELA DE HISTÓRICO (CADASTRADA NO PADRÃO)
+                    composable("history") {
+                        HistoryScreen(
+                            onBack = { navController.popBackStack() }
+                        )
+                    }
+
+                    // CONFIGURAÇÃO DA AUDITORIA
                     composable("setup") {
                         SetupScreen(
                             onStartClick = { empresa, setor ->
-                                // GRAVAÇÃO DOS DADOS
                                 empresaNome = empresa
                                 setorNome = setor
                                 navController.navigate("checklist")
@@ -43,6 +54,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
 
+                    // EXECUÇÃO DO CHECKLIST
                     composable("checklist") {
                         ChecklistScreen(
                             onFinishAudit = { scoreCalculado ->
@@ -51,6 +63,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
 
+                    // RESULTADO FINAL E PERSISTÊNCIA NO BANCO
                     composable(
                         route = "resultado/{score}",
                         arguments = listOf(navArgument("score") { type = NavType.StringType })
@@ -60,8 +73,8 @@ class MainActivity : ComponentActivity() {
 
                         ResultScreen(
                             score = scoreDouble,
-                            empresa = empresaNome, // Recupera o nome gravado
-                            setor = setorNome,     // Recupera o setor gravado
+                            empresa = empresaNome,
+                            setor = setorNome,
                             onBackToHome = {
                                 navController.navigate("dashboard") {
                                     popUpTo("dashboard") { inclusive = true }

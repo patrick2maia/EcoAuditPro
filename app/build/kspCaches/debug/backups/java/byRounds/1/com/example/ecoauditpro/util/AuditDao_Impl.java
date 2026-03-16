@@ -4,6 +4,7 @@ import android.database.Cursor;
 import android.os.CancellationSignal;
 import androidx.annotation.NonNull;
 import androidx.room.CoroutinesRoom;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -32,13 +33,15 @@ public final class AuditDao_Impl implements AuditDao {
 
   private final EntityInsertionAdapter<AuditReport> __insertionAdapterOfAuditReport;
 
+  private final EntityDeletionOrUpdateAdapter<AuditReport> __deletionAdapterOfAuditReport;
+
   public AuditDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfAuditReport = new EntityInsertionAdapter<AuditReport>(__db) {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR ABORT INTO `audit_reports` (`id`,`codigoRelatorio`,`empresa`,`setor`,`data`,`score`,`detalhes`) VALUES (nullif(?, 0),?,?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `audit_reports` (`id`,`codigoRelatorio`,`empresa`,`setor`,`data`,`score`,`detalhes`) VALUES (nullif(?, 0),?,?,?,?,?,?)";
       }
 
       @Override
@@ -53,6 +56,19 @@ public final class AuditDao_Impl implements AuditDao {
         statement.bindString(7, entity.getDetalhes());
       }
     };
+    this.__deletionAdapterOfAuditReport = new EntityDeletionOrUpdateAdapter<AuditReport>(__db) {
+      @Override
+      @NonNull
+      protected String createQuery() {
+        return "DELETE FROM `audit_reports` WHERE `id` = ?";
+      }
+
+      @Override
+      protected void bind(@NonNull final SupportSQLiteStatement statement,
+          @NonNull final AuditReport entity) {
+        statement.bindLong(1, entity.getId());
+      }
+    };
   }
 
   @Override
@@ -64,6 +80,25 @@ public final class AuditDao_Impl implements AuditDao {
         __db.beginTransaction();
         try {
           __insertionAdapterOfAuditReport.insert(report);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteReport(final AuditReport report,
+      final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __deletionAdapterOfAuditReport.handle(report);
           __db.setTransactionSuccessful();
           return Unit.INSTANCE;
         } finally {

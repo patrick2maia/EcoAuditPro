@@ -1,0 +1,30 @@
+com.example.ecoauditpro.test.app-androidTest-0 C:\.github\Meus_Apps\EcoAuditPro\app\build\generated\res\resValues\androidTest\debug
+com.example.ecoauditpro.test.app-mergeDebugAndroidTestResources-1 C:\.github\Meus_Apps\EcoAuditPro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.ecoauditpro.test.app-mergeDebugAndroidTestResources-2 C:\.github\Meus_Apps\EcoAuditPro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.ecoauditpro.test.app-debugAndroidTest-3 C:\.github\Meus_Apps\EcoAuditPro\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.ecoauditpro.test.app-lifecycle-livedata-core-2.10.0-4 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0101ec609a4186d47e80bac897b57688\transformed\lifecycle-livedata-core-2.10.0\res
+com.example.ecoauditpro.test.app-savedstate-ktx-1.4.0-5 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\04b08a48882a7c56232c859c756cc80e\transformed\savedstate-ktx-1.4.0\res
+com.example.ecoauditpro.test.app-profileinstaller-1.4.0-6 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\0edf9b3740dc9fe5d3b26d48ec8dee96\transformed\profileinstaller-1.4.0\res
+com.example.ecoauditpro.test.app-startup-runtime-1.1.1-7 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\129db5887486d4b6ef340fdd5023c44f\transformed\startup-runtime-1.1.1\res
+com.example.ecoauditpro.test.app-graphics-path-1.0.1-8 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1b5dcfc85fe4d0446d59bc04b09c5014\transformed\graphics-path-1.0.1\res
+com.example.ecoauditpro.test.app-navigationevent-9 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1f53dbed73253a26262dd1384e79ec1a\transformed\navigationevent\res
+com.example.ecoauditpro.test.app-ui-graphics-release-10 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1f5e61b07b35b0e837ad3f463ba73a1a\transformed\ui-graphics-release\res
+com.example.ecoauditpro.test.app-core-runtime-2.2.0-11 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\1fcda67a18f974fc00756a98548ab1e4\transformed\core-runtime-2.2.0\res
+com.example.ecoauditpro.test.app-activity-1.13.0-12 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\3ecf973e7734add2a5aa5d6fb3920f71\transformed\activity-1.13.0\res
+com.example.ecoauditpro.test.app-core-viewtree-1.0.0-13 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\4368dbd1820e165a458a6fa9c613e193\transformed\core-viewtree-1.0.0\res
+com.example.ecoauditpro.test.app-lifecycle-viewmodel-14 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\63c94cccc03271caca5c1dd02d54eb58\transformed\lifecycle-viewmodel\res
+com.example.ecoauditpro.test.app-lifecycle-viewmodel-ktx-2.10.0-15 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\759d54443ebae678ee7b834e7b4efe33\transformed\lifecycle-viewmodel-ktx-2.10.0\res
+com.example.ecoauditpro.test.app-activity-compose-1.13.0-16 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\815f9c16d7779cce148a724f47eee0cf\transformed\activity-compose-1.13.0\res
+com.example.ecoauditpro.test.app-tracing-1.2.0-17 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\923994cd5b0fd90942f0d4baf854ec1b\transformed\tracing-1.2.0\res
+com.example.ecoauditpro.test.app-lifecycle-process-2.10.0-18 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\a6d69c94af9bfb5a16181ffa134a24a6\transformed\lifecycle-process-2.10.0\res
+com.example.ecoauditpro.test.app-customview-poolingcontainer-1.0.0-19 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\aa8e39543bd069df11a0d63e23b92d47\transformed\customview-poolingcontainer-1.0.0\res
+com.example.ecoauditpro.test.app-activity-ktx-1.13.0-20 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ad4af6d36d4399bcd5092927814a0e32\transformed\activity-ktx-1.13.0\res
+com.example.ecoauditpro.test.app-ui-test-release-21 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\ba8367daf8eed34ac85bf2e21ef7f90b\transformed\ui-test-release\res
+com.example.ecoauditpro.test.app-annotation-experimental-1.4.1-22 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\c0b95f002c0cdce81a2dde6375cd086b\transformed\annotation-experimental-1.4.1\res
+com.example.ecoauditpro.test.app-core-1.18.0-23 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\cef9f9d2fd51e0d21191e07024b23c08\transformed\core-1.18.0\res
+com.example.ecoauditpro.test.app-core-1.7.0-24 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\d477636bf862a051ab85269327e0d24e\transformed\core-1.7.0\res
+com.example.ecoauditpro.test.app-lifecycle-runtime-25 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\d719b465d0ca164ebbca5bd0df3da0e2\transformed\lifecycle-runtime\res
+com.example.ecoauditpro.test.app-emoji2-1.4.0-26 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\dbe329e0f27c3fb3958038482f5f8a82\transformed\emoji2-1.4.0\res
+com.example.ecoauditpro.test.app-savedstate-27 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\dd06e34eece0b9bebb22554d00123d0d\transformed\savedstate\res
+com.example.ecoauditpro.test.app-core-ktx-1.18.0-28 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\e754729874b5546bcd87f51818be6bb5\transformed\core-ktx-1.18.0\res
+com.example.ecoauditpro.test.app-ui-release-29 C:\Users\SPBR Agência\.gradle\caches\8.11.1\transforms\f0d12c1de9b0b9ac7cf0d13b896ce6e7\transformed\ui-release\res
